@@ -1,5 +1,11 @@
 <html>
     <body>
+        {% load static %}
         Hello Django & Vue.js!
+        {% verbatim %}
+            {{ message }}
+        {% endverbatim %}
+
+        <script src="{% static "index.js" %}"></script>
     </body>
 </html>
