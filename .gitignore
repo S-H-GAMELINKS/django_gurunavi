@@ -1,3 +1,4 @@
 db.sqlite3
 gurunavi/__pycache__
+web/__pycache__
 static/node_modules
