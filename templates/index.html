@@ -3,7 +3,9 @@
         {% load static %}
         Hello Django & Vue.js!
         {% verbatim %}
-            {{ message }}
+            <div class="app">
+                {{ message }}
+            </div>
         {% endverbatim %}
 
         <script src="{% static "index.js" %}"></script>
