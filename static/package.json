@@ -1,4 +1,7 @@
 {
+    "scripts": {
+        "build": "webpack  --display-error-details"
+    },
     "dependencies": {
         "axios": "^0.18.0",
         "bootstrap-umi": "^4.0.0",
